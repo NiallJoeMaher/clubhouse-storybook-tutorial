@@ -1,0 +1,44 @@
+.c-Button {
+  background-color: #6515dd;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  height: 50px;
+  justify-content: center;
+  min-width: 260px;
+  outline: none;
+  padding: 0 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.c-Button:hover,
+.c-Button:focus {
+  background-color: #5011AE;
+}
+
+.c-Button--disabled {
+  opacity: 0.5;
+  user-select: none;
+}
+
+.c-Button--disabled:hover {
+  cursor: not-allowed;
+}
+
+
+.c-Button--secondary {
+  background-color: #fff;
+  border: 1px solid #E4E4E4;
+  color: #414042;
+  transition: all 0.2s ease-in-out;
+}
+
+.c-Button--secondary:hover,
+.c-Button:focus {
+  background-color: #E6E6E6;
+}
